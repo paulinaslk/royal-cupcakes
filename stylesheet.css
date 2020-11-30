@@ -1,0 +1,233 @@
+body {
+  margin-top: 0px; 
+  margin-bottom: 0px; 
+  margin-left: 0px; 
+  margin-right: 0px;
+  padding: 0;
+  background-color: rgba(242, 214, 202, 0.5);}
+
+/* NAVIGATION */
+.bg-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.2)), url("heroimage.jpg");
+
+  height: 70vh;
+  width: 100vw;
+  overflow: hidden;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 97%;
+  overflow: hidden;
+}
+
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  float: right;
+}
+
+
+/* Navbar links */
+.topnav a {
+  color: white;
+  text-align: center;
+  padding: 14px 3px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+.topnav a:hover {
+  background-color: transparent;
+  color: white;
+  opacity: 0.6;
+  
+}
+
+.topnav a:active {
+  background-color: transparent;
+  color: white;
+  opacity: 0.5;
+  border: 1px solid #fff;
+  
+}
+
+
+li{
+    display: inline;
+    list-style-type: none;
+}
+
+body, html {
+    width: 100%;
+    
+}
+
+.logo {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 26px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  
+}
+
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: left;
+  position: absolute;
+  font-family: 'Nunito', sans-serif;
+  top: 40%;
+  left: 21%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+p {
+  text-align: left;
+}
+
+.banner-text {
+  position: relative;
+  left: 20px;
+  top: 7px;
+  font-size: 17px;
+
+}
+
+/* Button */
+button {
+  font-family: 'Nunito', sans-serif;
+  text-align: left;
+  padding: 7px 20px;
+  border: 1px solid #fff;
+  color: black;
+  font-size: 15px;
+  float: left;
+  background-color: white;
+  
+}
+
+button:hover {
+  background-color: transparent; 
+  color: white;
+-webkit-transition: all 0.5s;
+-moz-transition: all 0.5s;
+-o-transition: all 0.5s;
+transition: all 0.5s;
+cursor: pointer;
+}
+
+/*LINKS*/
+a {
+  color: white;
+  text-decoration: underlined;
+}
+
+a:hover {
+opacity: 0.6;
+-webkit-transition: all 0.5s;
+-moz-transition: all 0.5s;
+-o-transition: all 0.5s;
+transition: all 0.5s;
+cursor: pointer;
+}
+
+
+p {
+  font-family: 'Nunito', sans-serif;
+}
+
+.footer {
+  background-color: #AA706A;
+  height: 200px;
+  width: 100wv;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* NEWSLETTER */
+
+.newsletter-text {
+  text-align: center;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  color: #519188;
+  text-transform: uppercase;
+
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  
+}
+
+h4 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #AA706A;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  
+}
+
+.philosophy {
+ text-align: center;
+ font-family: 'Poppins', sans-serif;
+ font-size: 15px;
+ padding-bottom: 20px;
+ text-transform: uppercase;
+
+}
+
+.table {
+  margin-left: 200px;
+  margin-bottom: 20px;
+  width: 900px;
+  border-spacing: 50px;
+}
+
+.special {
+  color: #519188;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.generator {
+  color: red
+}
