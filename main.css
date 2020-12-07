@@ -4,7 +4,113 @@ body {
     margin-left: 0px; 
     margin-right: 0px;
     padding: 0;
+    font-family: 'Nunito', sans-serif;
     background-color: rgba(242, 214, 202, 0.5);}
+  
+  
+  /* Position the navbar container inside the image */
+  .contain {
+    top: 0;
+    left: 0;
+    width: 97%;
+    overflow: hidden;
+    background-color: #aa706a;
+  }
+  
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    float: right;
+    background-color: #aa706a;
+  }
+  
+  
+  /* Navbar links */
+  .topnav a {
+    color: white;
+    text-align: center;
+    padding: 14px 3px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: transparent;
+    color: white;
+    opacity: 0.6;
+    
+  }
+  
+  .topnav a:active {
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+    border: 1px solid #fff;
+    
+  }
+  
+  
+  li{
+      display: inline;
+      list-style-type: none;
+  }
+  
+  body, html {
+      width: 100%;
+      
+  }
+  
+  .logo {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: #aa706a;
+    
+  }
+
+  p {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: #519188;
+    text-transform: uppercase;
+  
+  }
+
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    
+  }
+
+  h4 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #AA706A;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    
+  }
 
 .row {
     display: -ms-flexbox; /* IE10 */
@@ -13,57 +119,51 @@ body {
     flex-wrap: wrap;
     margin: 0 -16px;
   }
-  
   .col-25 {
     -ms-flex: 25%; /* IE10 */
     flex: 25%;
   }
-  
   .col-50 {
     -ms-flex: 50%; /* IE10 */
     flex: 50%;
   }
-  
   .col-75 {
     -ms-flex: 75%; /* IE10 */
     flex: 75%;
   }
-  
   .col-25,
   .col-50,
   .col-75 {
     padding: 0 16px;
   }
-  
   .container {
-    background-color: #f2f2f2;
+    background-color: transparent;
     padding: 5px 20px 15px 20px;
-    border: 1px solid lightgrey;
+    border: none;
     border-radius: 3px;
+    width: 60%;
+    margin-left: 20%;
   }
-  
   input[type=text] {
-    width: 100%;
+    width: 80%;
     margin-bottom: 20px;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 3px;
   }
-  
   label {
     margin-bottom: 10px;
     display: block;
   }
-  
   .icon-container {
     margin-bottom: 20px;
     padding: 7px 0;
     font-size: 24px;
   }
-  
   .btn {
-    background-color: #4CAF50;
+    background-color: #aa706a;
     color: white;
+    font-family: 'Nunito', sans-serif;
     padding: 12px;
     margin: 10px 0;
     border: none;
@@ -71,17 +171,21 @@ body {
     border-radius: 3px;
     cursor: pointer;
     font-size: 17px;
+width: 30%;
   }
-  
   .btn:hover {
-    background-color: #45a049;
+    opacity: 0.6;
+    -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+ 
+
   }
-  
   span.price {
     float: right;
     color: grey;
   }
-  
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
   @media (max-width: 800px) {
     .row {
@@ -90,4 +194,59 @@ body {
     .col-25 {
       margin-bottom: 20px;
     }
+  }
+
+  .footer {
+    background-color: #AA706A;
+    height: 200px;
+    width: 100wv;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+ /* Style the form element with a border around it */
+
+  
+  /* Add some padding and a grey background color to containers */
+  .subscription {
+    padding: 20px;
+    background-color: #AA706A;
+  }
+  
+  /* Style the input elements and the submit button */
+  input[type=], input[type=submit] {
+    
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+    font-size: 13px;
+  }
+  
+  /* Add margins to the checkbox */
+  input[type=checkbox] {
+    margin-top: 16px;
+    
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: white;
+    width: 20%;
+    color: black;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.6;
+    -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+    width: 20%;
   }
