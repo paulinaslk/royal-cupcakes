@@ -1,0 +1,203 @@
+body {
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    padding: 0;
+    background-color: rgba(242, 214, 202, 0.5);}
+  
+  
+  /* Position the navbar container inside the image */
+  .container {
+    top: 0;
+    left: 0;
+    width: 97%;
+    overflow: hidden;
+    background-color: #aa706a;
+  }
+  
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    float: right;
+    background-color: #aa706a;
+  }
+  
+  
+  /* Navbar links */
+  .topnav a {
+    color: white;
+    text-align: center;
+    padding: 14px 3px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: transparent;
+    color: white;
+    opacity: 0.6;
+    
+  }
+  
+  .topnav a:active {
+    background-color: transparent;
+    color: white;
+    opacity: 0.5;
+    border: 1px solid #fff;
+    
+  }
+  
+  
+  li{
+      display: inline;
+      list-style-type: none;
+  }
+  
+  body, html {
+      width: 100%;
+      
+  }
+  
+  .logo {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: #aa706a;
+    
+  }
+
+  p {
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .footer {
+    background-color: #AA706A;
+    height: 200px;
+    width: 100wv;
+    padding-top: 10px;
+    text-align: center;
+  }
+  
+  /* NEWSLETTER */
+  
+  .newsletter-text {
+    text-align: center;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+  
+  }
+  
+  h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: #519188;
+    text-transform: uppercase;
+  
+  }
+  
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    
+  }
+  
+  h4 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #AA706A;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    
+  }
+  
+  .philosophy {
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+   font-size: 15px;
+   padding-bottom: 20px;
+   text-transform: uppercase;
+  
+  }
+  
+  .table {
+    margin-left: 200px;
+    margin-bottom: 20px;
+    width: 900px;
+    border-spacing: 50px;
+  }
+  
+  .special {
+    color: #519188;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+ 
+  
+  /* Style the form element with a border around it */
+  form {
+    border: 4px solid #AA706A;
+  }
+  
+  /* Add some padding and a grey background color to containers */
+  .subscription {
+    padding: 20px;
+    background-color: #AA706A;
+  }
+  
+  /* Style the input elements and the submit button */
+  input[type=text], input[type=submit] {
+    width: 50%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+    font-size: 13px;
+  }
+  
+  /* Add margins to the checkbox */
+  input[type=checkbox] {
+    margin-top: 16px;
+    
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: white;
+    width: 20%;
+    color: black;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.6;
+    -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+    width: 20%;
+  }

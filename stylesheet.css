@@ -24,7 +24,6 @@ body {
 
 /* Position the navbar container inside the image */
 .container {
-  position: fixed;
   top: 0;
   left: 0;
   width: 97%;
@@ -230,4 +229,53 @@ h4 {
 
 .generator {
   color: red
+}
+
+/* Style the form element with a border around it */
+form {
+  border: 4px solid #AA706A;
+}
+
+/* Add some padding and a grey background color to containers */
+.subscription {
+  padding: 20px;
+  background-color: #AA706A;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 50%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  text-transform: capitalize;
+  font-size: 13px;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+  
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: white;
+  width: 20%;
+  color: black;
+  border: none;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+}
+
+input[type=submit]:hover {
+  opacity: 0.6;
+  -webkit-transition: all 0.8s;
+-moz-transition: all 0.8s;
+-o-transition: all 0.8s;
+transition: all 0.8s;
+  width: 20%;
 }
